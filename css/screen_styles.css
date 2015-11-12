@@ -7,8 +7,9 @@ body {
   line-height: 1.5em;
   font-family: Arial;
   font-size: 14px;
-  background: #acd54b url(../images/background_gradient.jpg) repeat-x 0px 0px;
+  background: #acd54b;
 }
+
 
 .page {
   max-width: 980px;
@@ -97,6 +98,7 @@ nav a {
   display: inline-block;
   font-weight: bold;
   font-size: .9em;
+  transition: all .2s ease-in-out;
 }
 nav a:hover {
   color: #fff;
@@ -105,16 +107,3 @@ nav a:hover {
 .clear-fix {
   clear: both;
 }
-
-
-
-
-
-
-
-
-
-
-edit colors- lines 6, 10, 50, 51
-#acd54b
-.
